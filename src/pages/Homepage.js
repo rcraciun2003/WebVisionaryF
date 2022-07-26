@@ -1,6 +1,6 @@
 import React from "react";
-import { Nav } from "../components/Nav";
-import { HeaderHome } from "../components/HeaderHome";
+import { Nav } from "../sections/Nav";
+import { HeaderHome } from "../sections/HeaderHome";
 export const Homepage = () => {
   return (
     <>
