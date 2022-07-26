@@ -1,6 +1,5 @@
-
-    import React from "react";
-    import logo from '../assets/images/logo.png';
+import React from "react";
+import logo from "../assets/images/logo.png";
 export const Nav = () => {
   return (
     <div className="">
@@ -14,7 +13,7 @@ export const Nav = () => {
       </div>
       <div>
         <p>+40720404104</p>
-        {/* <Button>Hai Sa Vorbim</Button> */}
+        <Button>Hai Sa Vorbim</Button>
       </div>
     </div>
   );
