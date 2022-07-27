@@ -12,8 +12,7 @@ export const Nav = () => {
       <div
         className="flex w-screen justify-between font-medium fixed z-50"
         style={{
-          background:
-            "linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(121,9,105,0) 0%, rgba(255,255,255,1) 100%)",
+          background: "white",
         }}
       >
         <img src={logo} className="h-16 ml-6 pr-14"></img>
