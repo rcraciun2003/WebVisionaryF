@@ -45,10 +45,10 @@ export const Nav = () => {
           onClick={() => {
             setMobile(!mobile);
           }}
-          className="flex"
+          className="lg:hidden"
         >
           <FaBars
-            className="h-14 mr-6 lg:hidden"
+            className="h-14 mr-6 "
             style={{
               color: "gray",
             }}
