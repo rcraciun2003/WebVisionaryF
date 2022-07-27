@@ -38,7 +38,7 @@ export const Nav = () => {
           <a className="h-16 ml-6 pt-6">Contact</a>
         </div>
         <div className="flex justify-center align-center pt-6 mr-10  hidden lg:flex">
-          <p className="mr-6">+40720404104</p>
+          <a href="tel:+40720404104" className="mr-6">+40720404104</a>
           <Button text="Hai Sa Vorbim"></Button>
         </div>
         <button
@@ -80,7 +80,7 @@ export const Nav = () => {
 
           <a className="h-16 ml-6 pt-6">Portofoliu</a>
           <a className="h-16 ml-6 pt-6">Contact</a>
-          <p className="mr-6 mb-4">+40720404104</p>
+          <a href="tel:+40720404104" className="mr-6 mb-4">+40720404104</a>
           <Button text="Hai Sa Vorbim"></Button>
         </div>
       )}
