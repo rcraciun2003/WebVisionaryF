@@ -9,7 +9,13 @@ export const Nav = () => {
 
   return (
     <>
-      <div className="flex w-screen justify-between font-medium fixed bg-white z-10">
+      <div
+        className="flex w-screen justify-between font-medium fixed z-50"
+        style={{
+          background:
+            "linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(121,9,105,0) 0%, rgba(255,255,255,1) 100%)",
+        }}
+      >
         <img src={logo} className="h-16 ml-6 pr-14"></img>
 
         <div className="flex justify-center align-center hidden lg:flex">
@@ -38,7 +44,9 @@ export const Nav = () => {
           <a className="h-16 ml-6 pt-6">Contact</a>
         </div>
         <div className="flex justify-center align-center pt-6 mr-10  hidden lg:flex">
-          <a href="tel:+40720404104" className="mr-6">+40720404104</a>
+          <a href="tel:+40720404104" className="mr-6">
+            +40720404104
+          </a>
           <Button text="Hai Sa Vorbim"></Button>
         </div>
         <button
@@ -80,7 +88,9 @@ export const Nav = () => {
 
           <a className="h-16 ml-6 pt-6">Portofoliu</a>
           <a className="h-16 ml-6 pt-6">Contact</a>
-          <a href="tel:+40720404104" className="mr-6 mb-4">+40720404104</a>
+          <a href="tel:+40720404104" className="mr-6 mb-4">
+            +40720404104
+          </a>
           <Button text="Hai Sa Vorbim"></Button>
         </div>
       )}
